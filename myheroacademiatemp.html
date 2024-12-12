@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>MY HERO ACADEMIA</title>
+        <style>
+           .lista {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+        </style>
+         <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+
+            .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown span {
+        width: 100%;
+        height: 0px;
+        display: inline-block;
+        padding: 12px;
+        background-color: #f9f9f9;
+        cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            width: 250px;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            max-height: 125px;
+            overflow-y: scroll;
+            }
+
+            .dropdown-content a {
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+            color: black;
+            }
+
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+            </style>
+    </head>
+
+        <body>
+        <div style="text-align: center"><h2 style="background-color: grey; color: white; height: 60px; margin: 0;"></h2></div>
+        <div style="text-align: center"><h2 style="border: 2px solid black; border-radius: 15px; background-color: black; color: white;">TEMPORADAS</h2></div>
+        <div class="lista">
+            
+            <div style="display:flex;  margin: 12px">
+                <img style="width: 250px; height: 400px;" src="myheroacademia.jpg"></img>
+                <div style="width: 256px; background-color: white;">
+                    <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA</p>
+                    <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                    <p style="text-align: center; color: black;">En un mundo donde la mayoría nace con habilidades extraordinarias llamadas Dones, héroes y villanos luchan por el control. Los héroes, ahora funcionarios del gobierno, son admirados y deseosos de los niños que sueñan con desarrollar sus propios Dones y convertirse en héroes número uno.</p>
+                    <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                    <div style="width: 256px;text-align: center;">
+                    </div>
+                    <div style="width: 256px;text-align: center;">
+                    </div>                               
+                    <div class="dropdown">
+                        <span style="text-align: center; background-color: rgba(255, 255, 255, 0); color: black;">animefenix</span>
+                        <div class="dropdown-content" id="episodios">
+                            <script>
+                                for (var episodio = 1; episodio <= 13; episodio++) {
+                                    document.getElementById("episodios").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-${episodio}" target="_blank">Episodio ${episodio}</a>`;
+                                }
+                            </script>
+                                </div>
+                                </div>
+                </div>
+
+                
+            </div>
+
+            <div style="display:flex;  margin: 12px">
+                <img style="width: 250px; height: 400px;" src="myheroacademia2.jpg"></img>
+                <div style="width: 256px; background-color: white;">
+                    <p style="background-color:rgba(128,128,128);">MY HERO ACADEMIA 2</p>
+                    <p style="background-color:rgba(192,192,192);">DESCRIPCIÓN</p>
+                    <p style="text-align: center; color: black;">"JUJUTSU KAISEN" sigue a Yuji Itadori, un estudiante convertido en hechicero, luchando contra maldiciones con sus amigos en la Escuela de Brujería de Tokio. La adaptación animada de Studio MAPPA es muy exitosa, con varias temporadas y una película precuela llamada "JUJUTSU KAISEN 0".</p>
+                    <p style="background-color:rgba(192,192,192);">DONDE VER</p>
+                    <div style="width: 256px;text-align: center;">
+                    </div>
+                    <div class="dropdown">
+                        <span style="text-align: center; background-color: rgba(255, 255, 255, 0); color: black;">animefenix</span>
+                        <div class="dropdown-content" id="temporada2">
+                            <script>
+                                for (var temporada2 = 1; temporada2 <= 25; temporada2++) {
+                                    document.getElementById("temporada2").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-2-${temporada2}" target="_blank">Episodio ${temporada2}</a>`;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div style="display:flex;  margin: 12px">
+                <img style="width: 250px; height: 400px;" src="myheroacademia3.jpg"></img>
+                <div style="width: 256px; background-color: white;">
+                    <p style="background-color:rgba(128,128,128);">MY HERO ACADEMIA 3</p>
+                    <p style="background-color:rgba(192,192,192);">DESCRIPCIÓN</p>
+                    <p style="text-align: center; color: black;">Durante el verano, los estudiantes de las clases 1-A y 1-B participan en un intenso campo de entrenamiento supervisado por profesionales. Sin embargo, su desafío se intensifica cuando un grupo de villanos aparece, convirtiendo el entrenamiento en una lucha por la supervivencia.</p>
+                    <p style="background-color:rgba(192,192,192);">DONDE VER</p>
+                    <div class="dropdown">
+                        <span style="text-align: center; background-color: rgba(255, 255, 255, 0); color: black;">animefenix</span>
+                        <div class="dropdown-content" id="temporada3">
+                            <script>
+                                for (var temporada3 = 1; temporada3 <= 25; temporada3++) {
+                                    document.getElementById("temporada3").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-3rd-season-${temporada3}" target="_blank">Episodio ${temporada3}</a>`;
+                                }
+                            </script>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display:flex;  margin: 12px">
+                <img style="width: 250px; height: 400px;" src="myheroacademia4.jpg"></img>
+                <div style="width: 256px; background-color: white;">
+                    <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA 4</p>
+                    <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                    <p style="text-align: center; color: black;">Cuarta temporada de My Hero Academia. La historia está ambientada en un universo alternativo en la actualidad donde todo el mundo tiene poderes especiales. La historia se centra en el joven Izuku Midoriya, que si bien aún no tienen poderes, ansía tenerlos y convertirse en un héroe para proteger a todo el mundo.</p>
+                    <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                    <div class="dropdown">
+                        <span style="background-color: rgba(0, 0, 0,0); color: black;">animefenix</span>
+                        <div class="dropdown-content" id="temporada4">
+                            <script>
+                                for (var temporada4 = 1; temporada4 <= 25; temporada4++) {
+                                    document.getElementById("temporada4").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-4th-season-${temporada4}" target="_blank">Episodio ${temporada4}</a>`;
+                                }
+                            </script>
+                            
+                    </div>
+                    </div><p></p>
+                    <div class="dropdown">
+                        <span style="width: 100%; display: inline-block; padding: 12px; background-color: rgba(0, 0, 0,0); cursor: pointer; color: black;">crunchyroll</span>
+                        <div class="dropdown-content">
+                          <a href="https://www.crunchyroll.com/es/watch/GYNVG94JR/the-scoop-on-ua-class-1-a" target="_blank">Episodio 1</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GRMEJ4G2Y/overhaul" target="_blank">Episodio 2</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6NVN7VJY/boy-meets" target="_blank">Episodio 3</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6KE4KNG6/fighting-fate" target="_blank">Episodio 4</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6KE43M16/lets-go-gutsy-red-riot" target="_blank">Episodio 5</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G679XK45Y/an-unpleasant-talk" target="_blank">Episodio 6</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6KE4P116/go" target="_blank">Episodio 7</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GRDKW5GDY/suneater-of-the-big-three" target="_blank">Episodio 8</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6W4W19QR/red-riot" target="_blank">Episodio 9</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR3K089XR/temp-squad" target="_blank">Episodio 10</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR1XWPE1R/lemillion" target="_blank">Episodio 11</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR8D40E7R/unforeseen-hope" target="_blank">Episodio 12</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6ZJEE9GY/infinite-100" target="_blank">Episodio 13</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GYNVN9P8R/bright-future" target="_blank">Episodio 14</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR4P52PPY/smoldering-flames" target="_blank">Episodio 15</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G65PW0Q86/win-those-kids-hearts" target="_blank">Episodio 16</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR1X29D0R/relief-for-license-trainees" target="_blank">Episodio 17</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR3KQWKDR/school-festival" target="_blank">Episodio 18</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6QW1Q946/prepping-for-the-school-festival-is-the-funnest-part" target="_blank">Episodio 19</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GRJ0G292Y/gold-tips-imperial" target="_blank">Episodio 20</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GYJ0G9Q86/deku-vs-gentle-criminal" target="_blank">Episodio 21</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GY790W9VR/school-festival-start" target="_blank">Episodio 22</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR248NG76/let-it-flow-school-festival" target="_blank">Episodio 23</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GR0XPEM2Y/his-start" target="_blank">Episodio 24</a>
+                          <a href="https://www.crunchyroll.com/es/watch/G6ME9NP2R/make-it-do-or-die-survival-training-part-1" target="_blank">Episodio 25</a>
+                          <a href="https://www.crunchyroll.com/es/watch/GYNV4KX3R/make-it-do-or-die-survival-training-part-2" target="_blank">Episodio 26</a>
+                          <a href="https://www.crunchyroll.com/es-es/watch/G4VUQVP0E/shibuya-incident---gate-close" target="_blank">Episodio 27</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div style="display:flex;  margin: 12px">
+                <img style="width: 250px; height: 400px;" src="myheroacademia5.jpg"></img>
+                <div style="width: 256px; background-color: white;">
+                    <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA 5</p>
+                    <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                    <p style="text-align: center; color: black;">La quinta temporada está compuesta de 25 episodios que cubren cuatro arcos diferentes del manga. Continúa donde terminó la temporada 4 con la continuación del arco de los Héroes profesionales.</p>
+                    <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                    <div class="dropdown">
+                        <span style="background-color: rgba(0, 0, 0,0); color: black;">animefenix</span>
+                        <div class="dropdown-content" id="temporada5">
+                            <script>
+                                for (var temporada5 = 1; temporada5 <= 25; temporada5++) {
+                                    document.getElementById("temporada5").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-5th-season-${temporada5}" target="_blank">Episodio ${temporada5}</a>`;
+                                }
+                            </script>
+                        </div>
+                        </div>
+                        
+                    </div>
+            </div>
+
+            <div style="display:flex;  margin: 12px">
+                <img style="width: 250px; height: 400px;" src="myheroacademia6.jpg"></img>
+                <div style="width: 256px; background-color: white;">
+                    <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA 6</p>
+                    <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                    <p style="text-align: center;color: black;">La primera mitad de la temporada cubre el arco de la Guerra de Liberación Paranormal, La segunda mitad cubre las secuelas del Arco de la Guerra y el Arco del Héroe Oscuro.</p>
+                    <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                    <div class="dropdown">
+                        <span style="background-color: rgba(0, 0, 0,0); color: black;">animefenix</span>
+                        <div class="dropdown-content" id="temporada6">
+                            <script>
+                                for (var temporada6 = 1; temporada6 <= 25; temporada6++) {
+                                    document.getElementById("temporada6").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-6th-season-${temporada6}" target="_blank">Episodio ${temporada6}</a>`;
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center"><h2 style="border: 2px solid black; border-radius: 15px; background-color: black; color: white;">PELÍCULAS</h2></div>
+        <div class="lista">
+        <div style="display:flex;  margin: 12px">
+            <img style="width: 250px; height: 400px;" src="peli1myhero.jpg"></img>
+            <div style="width: 256px; background-color:white;">
+                <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA TWO HEROES</p>
+                <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                <p style="text-align: center; color: black;">Acompañado de Deku, All Might visita a una vieja amiga en la isla artificial 1-Island, cuando una pandilla de villanos toma como rehén a toda la ciudad..</p>
+                <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                <div style="width: 256px;text-align: center;">
+                    <a href="https://www.netflix.com/watch/81051689?trackId=255824129&tctx=0%2C0%2C9e0df8ac-9009-4be6-864c-bc666aacc080-579615644%2C9e0df8ac-9009-4be6-864c-bc666aacc080-579615644%7C2%2C%2C%2C%2C%2C%2CVideo%3A81051689%2CdetailsPagePlayButton" target="_blank;" style="color: black;">NETFLIX</a>
+                </div>
+            </div>
+        </div>
+
+        <div style="display:flex;  margin: 12px">
+            <img style="width: 250px; height: 400px;" src="peli2myhero.jpg"></img>
+            <div style="width: 256px; background-color: white;">
+                <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA: EL DESPERTAR DE LOS HÉROES</p>
+                <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                <p style="text-align: center; color: black;">Mientras ponen en práctica sus habilidades de héroe en la pacífica isla de Nabu, los niños de la clase 1-A se enfrentan al ataque de un temible villano llamado Nine.</p>
+                <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                <div style="width: 256px;text-align: center;">
+                    <a href="https://www.netflix.com/watch/81398907?trackId=255824129&tctx=0%2C1%2C9e0df8ac-9009-4be6-864c-bc666aacc080-579731193%2C9e0df8ac-9009-4be6-864c-bc666aacc080-579731193%7C2%2C%2C%2C%2C%2C%2CVideo%3A81398907%2CdetailsPagePlayButton" target="_blank" style="color: black;">NETFLIX</a>
+                </div>
+            </div>
+        </div>
+        
+        <div style="display:flex;  margin: 12px">
+            <img style="width: 250px; height: 400px;" src="misionmundial.jpg"></img>
+            <div style="width: 256px; background-color: white;">
+                <p style="background-color:rgb(128,128,128);"><h4>MY HERO ACADEMIA: EL DESPERTAR DE LOS HÉROES</h4></p>
+                <p><h5>DESCRIPCIÓN</h5></p>
+                <p style="text-align: center;color: black;">Cuando una secta coloca bombas por todo el mundo para aniquilar a los poseedores de dones, los héroes deben encontrarlas y desactivarlas antes de que se agote el tiempo.</p>
+                <p style="background-color:rgb(192,192,192);"><h5>DONDE VER</h5></p>
+                <div style="width: 256px;text-align: center;">
+                    <a href="https://www.netflix.com/search?q=boku&jbv=81642996" target="_blank">NETFLIX</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div><h2 style="border: 2px solid black; border-radius: 15px; background-color: black; color: white;">TRAILERS</h2></div>
+        <body style="text-align: center;">
+            <div style="display:inline-block;  margin: 12px">
+            <video style="width: 506px; height: 212px;" src="bokunohero.mp4" controls></video>
+        
+            <div style="display:inline-block;  margin: 12px;display: inline-block;">
+            <video style="width: 506px; height: 200px;" src="myheroacademiatrailer2.mp4" controls></video>
+            
+            <div style="display:inline-block;  margin: 12px;display: inline-block;">
+            <video style="width: 506px; height: 188px;" src="herotrailer 3.mp4" controls></video>
+    </div>
+</body>
+
+</html>

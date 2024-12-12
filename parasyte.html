@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parasyte</title>
+</head>
+
+
+<style>
+    .lista {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         text-align: center;
+     }
+ </style>
+  <style>
+     body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     }
+
+     .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+ 
+ .dropdown span {
+ width: 100%;
+ height: 0px;
+ display: inline-block;
+ padding: 12px;
+ background-color: #f9f9f9;
+ cursor: pointer;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     width: 250px;
+     background-color: #f9f9f9;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     max-height: 125px;
+     overflow-y: scroll;
+     }
+
+     .dropdown-content a {
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+     color: black;
+     }
+
+     .dropdown:hover .dropdown-content {
+     display: block;
+     }
+     </style>
+<style>
+    body {
+         background-color:turquoise ;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         filter: blur();
+       }
+       
+   </style> 
+     
+<body>
+    <div style="text-align: center"><h2 style="border: 2px solid black; border-radius: 15px; background-color: black; color: white;">TEMPORADAS</h2></div>
+    <div class="lista">
+        
+        <div style="display:inline-flex;  margin: 12px">
+            <img style="width: 250px; height: 400px;" src="myheroacademia.jpg"></img>
+            <div style="width: 256px; background-color: white;">
+                <p style="background-color:rgb(128,128,128);">MY HERO ACADEMIA</p>
+                <p style="background-color:rgb(192,192,192);">DESCRIPCIÓN</p>
+                <p style="text-align: center; color: black;">En un mundo donde la mayoría nace con habilidades extraordinarias llamadas Dones, héroes y villanos luchan por el control. Los héroes, ahora funcionarios del gobierno, son admirados y deseosos de los niños que sueñan con desarrollar sus propios Dones y convertirse en héroes número uno.</p>
+                <p style="background-color:rgb(192,192,192);">DONDE VER</p>
+                <div style="width: 256px;text-align: center;">
+                </div>
+                <div style="width: 256px;text-align: center;">
+                </div>                               
+                <div class="dropdown">
+                    <span style="text-align: center; background-color: rgba(255, 255, 255, 0); color: black;">animefenix</span>
+                    <div class="dropdown-content" id="episodios">
+                        <script>
+                            for (var episodio = 1; episodio <= 13; episodio++) {
+                                document.getElementById("episodios").innerHTML += `<a href="https://animefenix.tv/ver/boku-no-hero-academia-${episodio}" target="_blank">Episodio ${episodio}</a>`;
+                            }
+                        </script>
+                            </div>
+                            </div>
+        </div>
+        
+
+
+    
+</body>
+</html>
